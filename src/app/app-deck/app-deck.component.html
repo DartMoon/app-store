@@ -1,0 +1,18 @@
+<div class="card-deck">
+  <div *ngFor="let app of apps" class="col-md-4 col-sm-6">
+    <div class="card">
+      <img class="card-img-top" src="..." alt="{{ app.appName }}">
+      <div class="card-body">
+        <h4 class="card-title">{{ app.appName }}</h4>
+        <p class="card-text">{{ app.appDescription }}</p>
+      </div>
+      <div class="card-footer">
+        <a class="btn btn-primary" href="">open</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
